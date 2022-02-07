@@ -27,7 +27,7 @@ supun = """
 
 ✘ **Authorised Users List**
 
-Rose has a additional feature for non-admin users who want to use admin commands.
+Saiyanshi✘ has a additional feature for non-admin users who want to use admin commands.
 Auth users can skip, pause, stop, resume Voice Chats even without Admin Rights.
 
 
@@ -35,7 +35,7 @@ Auth users can skip, pause, stop, resume Voice Chats even without Admin Rights.
 - /unauth `[Username or Reply to a Message]` : Remove a user from AUTH LIST of the group.
 - /authusers :  Check AUTH LIST of the group.
 
-[Old Manual Here ](https://t.me/szvcbot)
+[Old Manual Here ](https://t.me/saiyanshi_bot)
 """
 
 @app.on_callback_query(filters.regex("_adc"))
@@ -85,7 +85,7 @@ async def commands_callbacc(_, CallbackQuery):
 
 supunmas = """
 **Note:**
-Rose Music Bot works on a single merged 
+Saiyanshi✘ Music Bot works on a single merged 
 commands for Music and Video
 
 **Youtube,Telegram Files & query**:
@@ -119,15 +119,15 @@ We was added **Multi Assistant Mode** for High Number of Chats.
 
 👮‍♀️ **OFFICIAL Assistants**:-
 
-• Assistant 1️⃣ :- @vcpalyassistant
-• Assistant 2️⃣ :- @vcpalyassistant1
-• Assistant 3️⃣ :- @vcpalyassistant2
-• Assistant 4️⃣ :- @vcpalyassistant3
+• Assistant 1️⃣ :- ★彡[ʟᴏꜱᴛ༒ʙᴏʏ]彡★
+• Assistant 2️⃣ :- Provide You Soon
+• Assistant 3️⃣ :- Provide You Soon
+• Assistant 4️⃣ :- Provide You Soon
 
 **Credits** - 
 
--「🇮🇳」°『||ᴀᴅ•✘•ᴍᴜꜱɪᴄ||』
-- @not_just_Nikhil
+-★彡[ʟᴏꜱᴛ༒ʙᴏʏ]彡★
+- @mr_lost01
 
 👨‍💻 - Please Don't add all assistant to your group use 1
 And also we remove assistant monthly in all groups.
