@@ -1,9 +1,9 @@
 
 {
-    "name": "RoseXBot",
-    "description": "Telegram Group Management Bot Written In Python Using Pyrogram.",
-    "repository": "https://github.com/szsupunma/sz-rosebot",
-    "logo": "https://telegra.ph/file/cc0b7c55837f4ff32d3d8.jpg",
+    "name": "saiyanshi_manager",
+    "description": "A Powerful, Smart and Advance Telegram Group Management Bot Written In Python Using Pyrogram.",
+    "repository": "https://github.com/sachin-sinha01/saiyanshi_manager",
+    "logo": "https://telegra.ph/file/fc769abe2f01cf8619653.jpg",
     "keywords": [
     "python3",
     "telegram",
