@@ -19,7 +19,7 @@ logo = """
 - Never Expire Image Links. [Telegraph](https://telegra.ph/file/760c7393ee86fcba9e00e.jpg)
 - Group / Channel & Inbox Supported.
 
-Original work is done by [@MrItzme](https://telegra.ph/Ghostist-Logo-Maker-API-01-30) | [Single Developers </>](https://t.me/SingleDevelopers)
+Original work is done by [@MrItzme](https://telegra.ph/Ghostist-Logo-Maker-API-01-30) | [Single Developers </>](https://t.me/Mr_Lost01)
 """
 ghost = """
 **How to Use Logo Creator Tool**
