@@ -141,10 +141,13 @@ start_button = InlineKeyboardMarkup(
         ],
         [
            InlineKeyboardButton(
-                text="🛠 Github", url="https://github.com/szsupunma"
+                text="Support Channel", url="https://t.me/mastermind_network_official"
             ),
             InlineKeyboardButton(
-                text="👨‍💻Developer", url="http://t.me/supunmabot"
+                text="Support Group", url="https://t.me/friend_warrior"
+            ),
+            InlineKeyboardButton(
+                text="👨‍💻Developer", url="t.me/mr_lost01"
             ),
         ],
         [
@@ -157,7 +160,7 @@ start_button = InlineKeyboardMarkup(
 )
 
 start_text = f"""
-Hello There ! I'm **Rosebot** ✨ 
+Hello There ! I'm **Saiyanshi✘** ✨ 
 An  advanced telegram Group management Bot For help 
 You Protect Your Groups & Suit For All Your Needs.
 """
@@ -179,7 +182,7 @@ basichelp_string = """
 ✘ Base commands are the basic tools of Rose Bot which help you to manage 
 your group easily and effectivelyYou can choose 
 an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/slbotzone).
+Also you can ask anything in [Support Group](https://https://t.me/friend_warrior).
 
 >> [Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/szteambots/872)
 """
