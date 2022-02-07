@@ -7,9 +7,9 @@ supunma = """
 
 ✘ Base commands are the basic tools of Rose Bot which help you to manage 
 your group easily and effectivelyYou can choose an option below, 
-by clicking a button.Also you can ask anything in [Support Group](https://t.me/slbotzone).
+by clicking a button.Also you can ask anything in [Support Group](https://t.me/friend_warrior).
 
-Click buttons to get help [?](https://t.me/szteambots/872)
+Click buttons to get help [?](https://t.me/mastermind_bots/33)
 """
 
 mbuttons = InlineKeyboardMarkup(
