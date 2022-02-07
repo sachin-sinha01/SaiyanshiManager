@@ -1,7 +1,7 @@
 __MODULE__ = "Video Play"
 __HELP__ = """
 
-Rose can play video in your group's voice chat 
+Saiyanshi✘ can play video in your group's voice chat 
 zero lag time with high quality
 
 × /play - `[Youtube URL/Search Query/live URL or reply video/audion]` 
