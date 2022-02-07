@@ -1,6 +1,6 @@
 """
 Copyright (c) 2021 TheHamkerCat
-This is part of @szrosebot so don't change anything....
+This is part of @saiyanshi_tobot so don't change anything....
 """
     
 
@@ -179,12 +179,12 @@ keyboard = InlineKeyboardMarkup(
 
 basichelp_string = """
 **👥Basic Group Commands**
-✘ Base commands are the basic tools of Rose Bot which help you to manage 
+✘ Base commands are the basic tools of Saiyanshi✘ Bot which help you to manage 
 your group easily and effectivelyYou can choose 
 an option below, by clicking a button.
 Also you can ask anything in [Support Group](https://https://t.me/friend_warrior).
 
->> [Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/szteambots/872)
+>> [Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/mastermind_bots/33)
 """
 
 funtools_string = """
@@ -192,9 +192,9 @@ funtools_string = """
 
 ✘ Extra tools which are available in bot and tools made for fun are here
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/slbotzone).
+Also you can ask anything in [Support Group](https://t.me/friend_warrior).
 
-Click buttons to get help [?](https://t.me/szteambots/872)
+Click buttons to get help [?](https://t.me/mastermind_bots/33)
 """
 
 advtools_string = """
@@ -203,9 +203,9 @@ advtools_string = """
 ✘ Advanced commands will help you to secure your groups 
 from attackers and do many stuff in group from a single bot
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/slbotzone).
+Also you can ask anything in [Support Group](https://t.me/friend_warrior).
 
->> [Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/szteambots/872)
+>> [Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/mastermind_bots/33)
 """
 
 @app.on_message(filters.command(["start", f"@{BOT_USERNAME}"]))
@@ -237,7 +237,7 @@ started time - `2022 {dater}:{timer} `
                 """
             )
         return await message.reply(
-            "**Heya, @szrosebot here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
+            "**Heya, @saiyanshi_tobot here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
         )
     if len(message.text.split()) > 1:
         name = (message.text.split(None, 1)[1]).lower()
@@ -350,10 +350,10 @@ keyboar = InlineKeyboardMarkup(
                     ],
                     [
                         InlineKeyboardButton(
-                            text="News Channel 🗣", url="https://t.me/szteambots"
+                            text="News Channel 🗣", url="https://t.me/mastermind_bots"
                         ),
                         InlineKeyboardButton(
-                            text="Support Group👥", url="https://t.me/slbotzone"
+                            text="Support Group👥", url="https://t.me/friend_warrior"
                         ),
                     ],
                     [
@@ -667,7 +667,7 @@ UTTON_10 = InlineKeyboardMarkup(
 
 TEXT_PART_1 = """
 Here is the help for the **Formatting** 
-Rose supports a large number of formatting options 
+Saiyanshi✘ supports a large number of formatting options 
 to make your messages more expressive. Take a look 
 by clicking the buttons below!
 """
@@ -787,7 +787,7 @@ Make things a little more personal by changing welcome messages, or changing not
 %%%
 how are you`
 This will randomly choose between sending the first message, "hello", or the second message, "how are you".
-Use this to make Rose feel a bit more customised! (only works in filters/notes)
+Use this to make Saiyanshi✘ feel a bit more customised! (only works in filters/notes)
 **Example welcome message:**
 - Every time a new user joins, they'll be presented with one of the three messages shown here.
 -> /filter "hey"
@@ -821,17 +821,17 @@ async def commands_callbacc(_, CallbackQuery):
     modules_count = len(ALL_MODULES)
 
     TEXT_PART = f"""
-@szrosebot ** is one of the fastest and most feature filled group manager**.   
+@saiyanshi_tobot ** is one of the fastest and most feature filled group manager**.   
  
  - **Latest Update Time** : `2022 {dater}:{timer}`
  - **Modules Loaded **:  `{modules_count}`
  - **Globally banned users.** :  `{gbans}`
-@szrosebot **Mongo database stats**
+@saiyanshi_tobot **Mongo database stats**
  - ** Users ** : `{served_users}`
  - ** chats.** : `{served_chats}`
 
  
- **Why Rose**:
+ **Why Saiyanshi✘**:
  
 - **Simple**: `Easy usage and compaitble with many bot commands.`
 - **Featured**: `Many features which other group management bots don't have.`
@@ -846,8 +846,8 @@ async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.delete()
 
 TEXT_PART_1 = """
-**Welcome to the Rose Configuration**
-The first thing to do is to add Rose Bot ✨ to your group! 
+**Welcome to the Saiyanshi✘ Configuration**
+The first thing to do is to add Saiyanshi✘ Bot ✨ to your group! 
 For doing that, press the under button and select your group,
 then press Done to continue the tutorial..
 """
@@ -860,13 +860,13 @@ To do that, follow this easy steps:
 ▫️ Click Manage Group
 ▫️ Goto Administrators 
 ▫️ Press on Administrator
-▫️ Add @szrosebot as Admin
+▫️ Add @saiyanshi_tobot as Admin
 ▫️ Give full permissions 
 ▫️ Confirm
 """
 
 TEXT_PART_3 = """
-**Excellent!** Now the Bot is ready to use!
+**Excellent!** Now Saiyanshi✘ Bot is ready to use!
 All commands can be used with / 
 If you're facing any difficulties in setting up me in your group, 
 so don't hesitate to come in @slbotzone.
@@ -876,7 +876,7 @@ We would love to help you.
 
 BUTTON_1 = InlineKeyboardMarkup(
         [[        
-        InlineKeyboardButton('Add Rose to Chat ! 🎉', url='http://t.me/szrosebot?startgroup=new')
+        InlineKeyboardButton('Add Saiyanshi✘ to Chat ! 🎉', url='http://t.me/saiyanshi_tobot?startgroup=new')
         ],
         [InlineKeyboardButton('Done ✅', callback_data="next_1")
         ]]
@@ -917,13 +917,13 @@ async def popat(_, CallbackQuery):
 
 
 text = """
-@szrosebot is one of the fastest and most feature filled group manager.
+@saiyanshi_tobot is one of the fastest and most feature filled group manager.
 
-Rose ✨ is developed and actively maintained by @szteambots!
+Saiyanshi✘ ✨ is developed and actively maintained by @mastermind_network_official!
 
-Rose has been online since 2021/8/10 and have many [groups and users.](https://t.me/szteambots/890)
+Saiyanshi✘ has been online since 10/02/10 and have many [groups and users.]
 
-**Why Rose:**
+**Why Saiyanshi✘:**
 - **Simple**: Easy usage and compaitble with many bot commands.
 - **Featured**: Many features which other group management bots don't have.
 - **Fast**: Pyrogram base bot and use mongo as database.
@@ -963,8 +963,8 @@ async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.delete()
 
 TEXT_PAT_1 = """
-**Welcome to the Rose Configuration**
-The first thing to do is to add Rose Bot ✨ to your group! 
+**Welcome to the Saiyanshi✘ Configuration**
+The first thing to do is to add Saiyanshi✘ Bot ✨ to your group! 
 For doing that, press the under button and select your group,
 then press Done to continue the tutorial..
 """
@@ -977,7 +977,7 @@ To do that, follow this easy steps:
 ▫️ Click Manage Group
 ▫️ Goto Administrators 
 ▫️ Press on Administrator
-▫️ Add @szrosebot as Admin
+▫️ Add @saiyanshi_tobot as Admin
 ▫️ Give full permissions 
 ▫️ Confirm
 """
@@ -986,14 +986,14 @@ TEXT_PART_3 = """
 **Excellent!** Now the Bot is ready to use!
 All commands can be used with / 
 If you're facing any difficulties in setting up me in your group, 
-so don't hesitate to come in @slbotzone.
+so don't hesitate to come in @friend_warrior.
 We would love to help you.
 """
 
 
 BUTON_1 = InlineKeyboardMarkup(
         [[        
-        InlineKeyboardButton('Add Rose to Chat ! 🎉', url='http://t.me/szrosebot?startgroup=new')
+        InlineKeyboardButton('Add Saiyanshi✘ to Chat ! 🎉', url='http://t.me/saiyanshi_tobot?startgroup=new')
         ],
         [InlineKeyboardButton('Done ✅', callback_data="next_100")
         ]]
@@ -1079,7 +1079,7 @@ LOGGER.info("""
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
 └───────────────────────────────────────────────┘ """)
 LOGGER.info(f"Version: stable")
-LOGGER.info(f"Owner: @supunma")
+LOGGER.info(f"Owner: @mr_lost01")
 
 if __name__ == "__main__":
     uvloop.install()
