@@ -41,14 +41,14 @@ async def ForceSub(bot: Client, event: Message):
         fix_ = await ForceSub(bot, event)
         return fix_
     except Exception as err:
-        print(f"Unable to do Force Subscribe to {uchannel}\n\nError: {err}\n\nContact Support Group: https://t.me/slbotzone")
+        print(f"Unable to do Force Subscribe to {uchannel}\n\nError: {err}\n\nContact Support Group: https://t.me/friend_warrior")
         return 200
     try:
         user = await bot.get_chat_member(chat_id=(int(uchannel) if uchannel.startswith("-100") else uchannel), user_id=event.from_user.id)
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=event.from_user.id,
-                text="Sorry Dear, You are Banned to use me ☹️\nFeel free to say in our [Support Group](https://t.me/slbotzone).",
+                text="Sorry Dear, You are Banned to use me ☹️\nFeel free to say in our [Support Group](https://t.me/friend_warrior).",
                 parse_mode="markdown",
                 disable_web_page_preview=True,
                 reply_to_message_id=event.message_id
@@ -78,7 +78,7 @@ async def ForceSub(bot: Client, event: Message):
         fix_ = await ForceSub(bot, event)
         return fix_
     except Exception as err:
-        print(f"Something Went Wrong! Unable to do Force Subscribe.\nError: {err}\n\nContact Support Group: https://t.me/slbotzone")
+        print(f"Something Went Wrong! Unable to do Force Subscribe.\nError: {err}\n\nContact Support Group: https://t.me/friend_warrior")
         return 200
 
 LOG_DATETIME = datetime.now().strftime("%d_%m_%Y-%H_%M_%S")
