@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 text = """
 **Formatting**
 
-Rose supports a large number of formatting 
+Saiyanshi✘ supports a large number of formatting 
 options to make your messages more expressive. Take a look!
 """
 
@@ -65,7 +65,7 @@ Alternatively, check out https://missrose.org/tools/buttons to generate the butt
 - [note button](buttonurl://#notename): This syntax will allow you to 
 create a button which links to a note. When clicked, 
 
-the user will be redirected to Rose's PM to see the note.
+the user will be redirected to Saiyanshi✘'s PM to see the note.
 """
 
 
