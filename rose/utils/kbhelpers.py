@@ -1,6 +1,6 @@
 """
 Copyright (c) 2021 TheHamkerCat
-This is part of @szrosebot so don't change anything....
+This is part of @saiyanshi_tobot so don't change anything....
 """
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
